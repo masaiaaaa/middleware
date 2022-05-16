@@ -1,0 +1,4 @@
+com\debug\middleware\server\controller\BookController.class
+com\debug\middleware\server\config\CommonConfig.class
+com\debug\middleware\server\entity\Book.class
+com\debug\middleware\server\MainApplication.class

@@ -1,0 +1,7 @@
+com\debug\middleware\server\entity\Person.class
+com\debug\middleware\server\RedisTest2.class
+com\debug\middleware\server\entity\Fruit.class
+com\debug\middleware\server\entity\Student.class
+com\debug\middleware\server\entity\User.class
+com\debug\middleware\server\entity\PhoneUser.class
+com\debug\middleware\server\RedisTest.class
