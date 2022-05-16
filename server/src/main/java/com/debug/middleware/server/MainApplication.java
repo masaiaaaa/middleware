@@ -16,6 +16,7 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 * @date: 2022/5/14 9:58
 */
 @SpringBootApplication
+@MapperScan(basePackages = "com.debug.middleware.model")
 public class MainApplication extends SpringBootServletInitializer {
 
     @Override
