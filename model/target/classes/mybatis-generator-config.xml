@@ -3,8 +3,6 @@
         PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
         "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
 <generatorConfiguration>
-
-
     <context id="testTables" targetRuntime="MyBatis3">
         <commentGenerator>
             <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
@@ -31,14 +29,14 @@
             <property name="trimStrings" value="true" />
         </javaModelGenerator>
         <!-- targetProject:mapper映射文件生成的位置 -->
-        <sqlMapGenerator targetPackage="mapper"
+        <sqlMapGenerator targetPackage="mappers"
                          targetProject=".\src\main\resources">
             <!-- enableSubPackages:是否让schema作为包的后缀 -->
             <property name="enableSubPackages" value="false" />
         </sqlMapGenerator>
         <!-- targetPackage：mapper接口生成的位置 -->
         <javaClientGenerator type="XMLMAPPER"
-                             targetPackage="com.debug.middleware.model.mappers"
+                             targetPackage="com.debug.middleware.model.mapper"
                              targetProject=".\src\main\java">
             <!-- enableSubPackages:是否让schema作为包的后缀 -->
             <property name="enableSubPackages" value="false" />
@@ -49,11 +47,11 @@
             如不需要example类添加下面四个属性
             enableCountByExample="false" enableDeleteByExample="false"
             enableSelectByExample="false" enableUpdateByExample="false"></table>-->
-        <table schema="db_middleware" tableName="item" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false"
-               enableUpdateByExample="false" selectByExampleQueryId="false">
-            <!--去掉表结构中的前缀-->
-            <domainObjectRenamingRule searchString="^T" replaceString="" />
+        <table schema="db_middleware" tableName="book_rob" domainObjectName ="BookRob"
+               enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false"
+               enableUpdateByExample="false" selectByExampleQueryId="false"
+               >
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
     </context>
 </generatorConfiguration>
-

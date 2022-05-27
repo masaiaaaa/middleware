@@ -1,5 +1,4 @@
-package com.debug.middleware.server.entity;
-/**
+package com.debug.middleware.server.entity;/**
  * Created by Administrator on 2019/3/13.
  */
 
@@ -9,7 +8,7 @@ import lombok.ToString;
 
 /**
  * 对象信息
- * @Author:sai
+ * @Author:debug (SteadyJack)
  * @Date: 2019/3/13 21:41
  **/
 @Data

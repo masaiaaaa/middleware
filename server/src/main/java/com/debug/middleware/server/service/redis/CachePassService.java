@@ -1,7 +1,7 @@
 package com.debug.middleware.server.service.redis;
 
 import com.debug.middleware.model.entity.Item;
-import com.debug.middleware.model.mappers.ItemMapper;
+import com.debug.middleware.model.mapper.ItemMapper;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.assertj.core.util.Strings;
 import org.slf4j.Logger;

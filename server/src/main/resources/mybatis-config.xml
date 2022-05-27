@@ -11,7 +11,7 @@
         <!-- 允许SQL执行完返回主键的配置 -->
         <setting name="useGeneratedKeys" value="true"/>
         <!-- 设置控制台打印sql -->
-        <setting name="logImpl" value="stdout_logging" />
+        <!--<setting name="logImpl" value="stdout_logging" />-->
     </settings>
 
 </configuration>
